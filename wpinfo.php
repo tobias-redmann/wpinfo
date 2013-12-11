@@ -15,10 +15,10 @@ include('modules/tabs.php');
 include('modules/bloginfo.php');
 include('modules/system.php');
 
-add_action( 'admin_menu', 'voucher_menu' );
+add_action( 'admin_menu', 'wpinfo_menu' );
 
 /** Step 1. */
-function voucher_menu() {
+function wpinfo_menu() {
 	add_management_page( 'WP Info', 'System Information', 'manage_options', 'wpinfo', 'wpinfo_page' );
 }
 
