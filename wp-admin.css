@@ -1,0 +1,93 @@
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+tr {
+    border-bottom: 1px solid #666; color: #666;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 7px;
+    padding-right: 40px;
+}
+
+.label {
+    display: inline-block;
+    width: 70px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+textarea#area {
+    width: 340px;
+    height: 130px;
+}
+
+.theme {
+    margin-top: 25px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 30%;
+    font-size: 18px;
+}
+
+.penguin_img {
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+.page-wrap { width: auto; max-width: 1000px;  margin: 80px auto; }
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Tabs */
+
+.tabs { background: #eee; padding: 10px; margin: 0 0 20px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+.tabs .nav { overflow: hidden; margin: 0 0 10px 0;}
+.tabs .nav li { width: 97px; float: left; margin: 0 10px 0 0; border:none;}
+.tabs .nav li.last { margin-right: 0; }
+.tabs .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 10px; text-align: center; border: 0; }
+.tabs .nav li a:hover { background-color: #111; }
+
+.tabs ul { list-style: none; }
+.tabs ul li { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+.tabs ul li a:hover { background: #fe4902; color: white; }
+.tabs ul li:last-child { border: none; }
+
+.tabs ul li.nav-one a.current, .tabs ul.featured li a:hover { background-color: #0575f4; color: white; }
+.tabs ul li.nav-two a.current, .tabs ul.core li a:hover { background-color: #d30000; color: white; }
+.tabs ul li.nav-three a.current, .tabs ul.jquerytuts li a:hover { background-color: #8d01b0; color: white; }
+.tabs ul li.nav-four a.current, .tabs ul.classics li a:hover { background-color: #FE4902; color: white; }
+
+.tabs .nav { overflow: hidden; margin: 0 0 10px 0;}
+
+

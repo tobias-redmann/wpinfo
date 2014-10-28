@@ -32,11 +32,12 @@ function wpinfo_bloginfo() {
   wpinfo_start_table();
 
   wpinfo_table_head(array('Key', 'Value', 'Usage'));
-  
+
   foreach($infos as $info) {
 
-    wpinfo_table_row(array("<code>$info</code>", '<code>'.get_bloginfo($info). '</code>', "<code>get_bloginfo('$info');</code>"));
-    
+
+      wpinfo_table_row(array($info, '<code>'.get_bloginfo($info). '</code>', "<code>get_bloginfo('$info');</code>"));
+
   }
   
   

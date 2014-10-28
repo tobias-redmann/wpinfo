@@ -1,4 +1,4 @@
-wpinfo
+wpdoc
 ======
 
-phpinfo like Overview of you WordPress installation
+phpinfo like Overview of your WordPress installation

@@ -43,7 +43,7 @@ function wpinfo_table_row($args) {
       }
       
       ?>
-      
+
     </tr>
   <?php
   
